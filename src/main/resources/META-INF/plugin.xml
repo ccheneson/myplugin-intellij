@@ -1,0 +1,14 @@
+<idea-plugin>
+    <id>com.myplugin.intellij</id>
+    <name>myplugin-intellij</name>
+
+    <description><![CDATA[
+    A plugin that exposes a set of utilities
+    ]]></description>
+
+
+    <extensions defaultExtensionNs="com.intellij">
+        <toolWindow id="MyPluginIntellij" anchor="right" factoryClass="com.myplugin.intellij.MainPanel"/>
+    </extensions>
+
+</idea-plugin>

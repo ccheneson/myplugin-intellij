@@ -1,0 +1,38 @@
+plugins {
+    id 'org.jetbrains.intellij' version '0.4.15'
+    id 'scala'
+}
+
+group 'com.myplugin.intellij'
+version '1.0.0'
+
+sourceCompatibility = 1.8
+
+// See https://github.com/JetBrains/gradle-intellij-plugin/
+intellij {
+    version '2019.1'
+    plugins 'org.intellij.scala:2019.1.8'
+    updateSinceUntilBuild false
+}
+
+
+repositories {
+    mavenCentral()
+    maven { url "https://www.jetbrains.com/intellij-repository/releases" }
+    maven { url "https://jetbrains.bintray.com/intellij-third-party-dependencies" }
+}
+
+
+dependencies {
+    compile 'org.scala-lang:scala-library:2.13'
+    compile group: 'org.scala-lang.modules', name: 'scala-swing_2.13', version: '2.1.1'
+}
+
+jar {
+    archiveName = "myplugin-intellij.jar"
+}
+
+
+patchPluginXml {
+    changeNotes """first release of myplugin-intellij plugins"""
+}
