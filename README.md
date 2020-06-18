@@ -8,11 +8,11 @@ It was written in scala
 
 # Final result
 
-You can see the plugin tab on the right-hand side (defined in `src/main/resources/META-INF/plugin.xml`)
+You can see the plugin button on the right-hand side (defined in `src/main/resources/META-INF/plugin.xml`)
 
 ![IDEA](image/idea.png)
 
-Clicking on it expand the panel where you can see the option tabs
+Clicking on it expands the panel where you can see the option tabs
 
 ![IDEA](image/tab1.png) ![IDEA](image/tab2.png)
 
