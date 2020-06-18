@@ -20,7 +20,7 @@ Clicking on it expands the panel where you can see the option tabs
 
 * https://github.com/zio/zio-intellij
 
-* The apt-code youtube series
+* The aptkode youtube series
 
   * https://www.youtube.com/channel/UCtBO0qu4w_0VgKDPYvQsQhA
 
